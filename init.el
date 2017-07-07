@@ -1,6 +1,6 @@
 (require 'package)
-(add-to-list 'package-archives
-         '("melpa" . "http://melpa.org/packages/") t)
+(setq package-archives '(("gnu"   . "http://elpa.zilongshanren.com/gnu/")
+    ("melpa" . "http://elpa.zilongshanren.com/melpa/")))
 
 (package-initialize)
 
